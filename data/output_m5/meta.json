@@ -1,0 +1,72 @@
+{
+  "products": [
+    {
+      "code": "M5_P01",
+      "name": "FOODS_3_090"
+    },
+    {
+      "code": "M5_P02",
+      "name": "FOODS_3_586"
+    },
+    {
+      "code": "M5_P03",
+      "name": "FOODS_3_252"
+    },
+    {
+      "code": "M5_P04",
+      "name": "FOODS_3_555"
+    },
+    {
+      "code": "M5_P05",
+      "name": "FOODS_3_714"
+    },
+    {
+      "code": "M5_P06",
+      "name": "FOODS_3_587"
+    },
+    {
+      "code": "M5_P07",
+      "name": "FOODS_3_694"
+    },
+    {
+      "code": "M5_P08",
+      "name": "FOODS_3_226"
+    },
+    {
+      "code": "M5_P09",
+      "name": "FOODS_3_202"
+    },
+    {
+      "code": "M5_P10",
+      "name": "FOODS_3_723"
+    }
+  ],
+  "start": "2011-01-29",
+  "days": 1913,
+  "event_types": [
+    "equipment",
+    "tooling",
+    "material",
+    "process",
+    "personnel",
+    "measure"
+  ],
+  "event_subtypes": {
+    "other": "其他"
+  },
+  "severities": [
+    "致命",
+    "严重",
+    "一般",
+    "轻微"
+  ],
+  "channels": [
+    "pass_rate",
+    "ppm",
+    "dim_rate",
+    "app_rate",
+    "volume"
+  ],
+  "source": "M5 Forecasting Accuracy (Walmart public dataset)",
+  "note": "真实数据适配：通道与事件映射见 scripts/build_m5_dataset.py"
+}

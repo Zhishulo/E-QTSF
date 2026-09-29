@@ -1,0 +1,5 @@
+103:     ap.add_argument("--dropout", type=float, default=0.2)
+118:         args.batch_size, smoke=args.smoke)
+119:     model = EQTSF(c_in=5, d_model=args.d_model, layers=args.layers,
+120:                   dropout=args.dropout, **flags).to(dev)
+155:         if ep % 4 == 0 or ep == total or args.smoke:

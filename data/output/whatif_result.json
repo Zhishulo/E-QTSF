@@ -1,0 +1,43 @@
+{
+  "login": "ok",
+  "event_created": {
+    "id": 307
+  },
+  "forecast": {
+    "threshold": 87.997,
+    "level": null,
+    "message": "",
+    "median_1_7": [
+      89.953,
+      89.832,
+      89.606,
+      88.921,
+      89.269,
+      88.752,
+      89.542
+    ],
+    "exceed_1_7": [
+      0.01,
+      0.04,
+      0.05,
+      0.23,
+      0.07,
+      0.25,
+      0.05
+    ],
+    "attribution": [
+      {
+        "event": "tooling/tool_change（严重）",
+        "date": "2026-01-08",
+        "delta": 1.1216
+      },
+      {
+        "event": "tooling/tool_change（严重）",
+        "date": "2026-01-08",
+        "delta": 1.0774
+      }
+    ],
+    "n_dates": 28
+  },
+  "alerts": []
+}

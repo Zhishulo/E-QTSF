@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "code": "PRD-001",
+      "name": "传动轴"
+    },
+    {
+      "code": "PRD-002",
+      "name": "齿轮坯"
+    },
+    {
+      "code": "PRD-003",
+      "name": "法兰盘"
+    },
+    {
+      "code": "PRD-004",
+      "name": "液压缸体"
+    },
+    {
+      "code": "PRD-005",
+      "name": "衬套"
+    },
+    {
+      "code": "PRD-006",
+      "name": "丝杠"
+    },
+    {
+      "code": "PRD-007",
+      "name": "轴承座"
+    },
+    {
+      "code": "PRD-008",
+      "name": "键条"
+    },
+    {
+      "code": "PRD-009",
+      "name": "阀芯"
+    },
+    {
+      "code": "PRD-010",
+      "name": "连杆"
+    }
+  ],
+  "start": "2024-01-01",
+  "days": 730,
+  "event_types": {
+    "equipment": "设备类",
+    "tooling": "刀具类",
+    "material": "物料类",
+    "process": "工艺类",
+    "personnel": "人员类",
+    "measure": "质量措施类"
+  },
+  "event_subtypes": {
+    "设备故障维修": "equipment",
+    "设备保养": "equipment",
+    "刀具磨损更换": "tooling",
+    "刀具批次更换": "tooling",
+    "来料批次变更": "material",
+    "供应商变更": "material",
+    "工艺参数调整": "process",
+    "工装夹具调整": "process",
+    "操作员变更": "personnel",
+    "新员工上岗": "personnel",
+    "CAPA实施": "measure",
+    "检验标准加严": "measure",
+    "防错装置导入": "measure"
+  },
+  "severities": [
+    "致命",
+    "严重",
+    "一般",
+    "轻微"
+  ],
+  "channels": [
+    "pass_rate",
+    "ppm",
+    "dim_rate",
+    "app_rate",
+    "volume"
+  ]
+}

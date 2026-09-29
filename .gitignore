@@ -1,0 +1,50 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# 本机工具内部状态
+.mimosa/
+
+# 一次性开发/调试脚本（本地保留，不入库）
+scripts/dev/
+scripts/aggregate_extra.py
+scripts/dump_beta.py
+scripts/extend_report.py
+scripts/extend_report2.py
+scripts/fix_three.py
+scripts/patch_honest.py
+scripts/patch_report.py
+scripts/patch_shock.py
+scripts/patch_v6.py
+scripts/patch_v7.py
+scripts/probe_beta.py
+scripts/probe_bodies.py
+scripts/probe_train.py
+scripts/reorder_routes.py
+scripts/selfcheck_report.py
+scripts/smoke_test.py
+scripts/test_ncr_flow.py
+scripts/test_whatif.py
+scripts/wave23.sh
+
+# M5 原始大文件（约 115MB，请按 README「真实数据」一节自行下载）
+data/real/
+
+# 日志与临时产物
+*.log
+gen_log.txt
+report_ext_probe.txt
+*_status.txt
+smoke_exit.txt
+token.txt
+
+# 训练权重：只保留两个主模型权重（见下方白名单），其余可由训练脚本复现
+**/*.pt
+!runs/eqtsf_full/best.pt
+!runs_m5/eqtsf_full/best.pt
+
+# SQLite 运行时伴生文件
+*.db-shm
+*.db-wal

@@ -1,0 +1,12 @@
+8: import torch
+15: def _betacf(a: torch.Tensor, b: torch.Tensor, x: torch.Tensor,
+16:             iters: int = 40) -> torch.Tensor:
+24:     for m in range(1, iters + 1):
+43: def betainc_reg(a: torch.Tensor, b: torch.Tensor, x: torch.Tensor,
+44:                 iters: int = 80) -> torch.Tensor:
+55:     cf = _betacf(aa, bb, xs, iters)
+61: def beta_pdf(a: torch.Tensor, b: torch.Tensor, x: torch.Tensor) -> torch.Tensor:
+68: def beta_icdf(t: torch.Tensor, a: torch.Tensor, b: torch.Tensor,
+69:               newton_steps: int = 12) -> torch.Tensor:
+80:     for _ in range(newton_steps):
+TOTAL_LINES=90

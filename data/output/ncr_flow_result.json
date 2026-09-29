@@ -1,0 +1,32 @@
+{
+  "login_engineer": "ok",
+  "ncr_created": {
+    "id": 116,
+    "report_no": "NCR-2026-002",
+    "product": "齿轮坯"
+  },
+  "illegal_flow": "rejected 400",
+  "flow_submit": {
+    "ok": true,
+    "status": "处理中"
+  },
+  "flow_verify": {
+    "ok": true,
+    "status": "已关闭"
+  },
+  "logs": [
+    [
+      "",
+      "待评审"
+    ],
+    [
+      "待评审",
+      "处理中"
+    ],
+    [
+      "处理中",
+      "已关闭"
+    ]
+  ],
+  "rbac": "rejected 403"
+}

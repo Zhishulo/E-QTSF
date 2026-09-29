@@ -1,0 +1,12 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pyjwt>=2.9
+pydantic>=2.8
+python-multipart>=0.0.9
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.8
+openpyxl>=3.1
+# GPU 版 torch 请单独安装（CUDA 12.4）：
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+torch>=2.4

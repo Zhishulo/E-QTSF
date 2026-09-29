@@ -1,0 +1,155 @@
+﻿date,_didx,event_type,event_subtype,severity,event_name
+2011-02-06,8,measure,other,轻微,SuperBowl
+2011-02-14,16,measure,other,一般,ValentinesDay
+2011-02-21,23,process,other,严重,PresidentsDay
+2011-03-09,39,personnel,other,一般,LentStart
+2011-03-16,46,personnel,other,一般,LentWeek2
+2011-03-17,47,measure,other,一般,StPatricksDay
+2011-03-20,50,personnel,other,一般,Purim End
+2011-04-24,85,personnel,other,一般,OrthodoxEaster
+2011-04-26,87,personnel,other,一般,Pesach End
+2011-05-05,96,measure,other,一般,Cinco De Mayo
+2011-05-08,99,measure,other,一般,Mother's day
+2011-05-30,121,process,other,严重,MemorialDay
+2011-05-31,122,measure,other,轻微,NBAFinalsStart
+2011-06-12,134,measure,other,轻微,NBAFinalsEnd
+2011-06-19,141,measure,other,一般,Father's day
+2011-07-04,156,process,other,严重,IndependenceDay
+2011-08-01,184,personnel,other,一般,Ramadan starts
+2011-08-31,214,personnel,other,一般,Eid al-Fitr
+2011-09-05,219,process,other,严重,LaborDay
+2011-10-10,254,process,other,严重,ColumbusDay
+2011-10-31,275,measure,other,一般,Halloween
+2011-11-07,282,personnel,other,一般,EidAlAdha
+2011-11-11,286,process,other,严重,VeteransDay
+2011-11-24,299,process,other,严重,Thanksgiving
+2011-12-25,330,process,other,严重,Christmas
+2011-12-28,333,personnel,other,一般,Chanukah End
+2012-01-01,337,process,other,严重,NewYear
+2012-01-07,343,personnel,other,一般,OrthodoxChristmas
+2012-01-16,352,process,other,严重,MartinLutherKingDay
+2012-02-05,372,measure,other,轻微,SuperBowl
+2012-02-14,381,measure,other,一般,ValentinesDay
+2012-02-20,387,process,other,严重,PresidentsDay
+2012-02-22,389,personnel,other,一般,LentStart
+2012-02-29,396,personnel,other,一般,LentWeek2
+2012-03-08,404,personnel,other,一般,Purim End
+2012-03-17,413,measure,other,一般,StPatricksDay
+2012-04-08,435,measure,other,一般,Easter
+2012-04-14,441,personnel,other,一般,Pesach End
+2012-04-15,442,personnel,other,一般,OrthodoxEaster
+2012-05-05,462,measure,other,一般,Cinco De Mayo
+2012-05-13,470,measure,other,一般,Mother's day
+2012-05-28,485,process,other,严重,MemorialDay
+2012-06-12,500,measure,other,轻微,NBAFinalsStart
+2012-06-17,505,measure,other,一般,Father's day
+2012-06-21,509,measure,other,轻微,NBAFinalsEnd
+2012-07-04,522,process,other,严重,IndependenceDay
+2012-07-20,538,personnel,other,一般,Ramadan starts
+2012-08-19,568,personnel,other,一般,Eid al-Fitr
+2012-09-03,583,process,other,严重,LaborDay
+2012-10-08,618,process,other,严重,ColumbusDay
+2012-10-26,636,personnel,other,一般,EidAlAdha
+2012-10-31,641,measure,other,一般,Halloween
+2012-11-11,652,process,other,严重,VeteransDay
+2012-11-22,663,process,other,严重,Thanksgiving
+2012-12-16,687,personnel,other,一般,Chanukah End
+2012-12-25,696,process,other,严重,Christmas
+2013-01-01,703,process,other,严重,NewYear
+2013-01-07,709,personnel,other,一般,OrthodoxChristmas
+2013-01-21,723,process,other,严重,MartinLutherKingDay
+2013-02-03,736,measure,other,轻微,SuperBowl
+2013-02-13,746,personnel,other,一般,LentStart
+2013-02-14,747,measure,other,一般,ValentinesDay
+2013-02-18,751,process,other,严重,PresidentsDay
+2013-02-20,753,personnel,other,一般,LentWeek2
+2013-02-24,757,personnel,other,一般,Purim End
+2013-03-17,778,measure,other,一般,StPatricksDay
+2013-03-31,792,measure,other,一般,Easter
+2013-04-02,794,personnel,other,一般,Pesach End
+2013-05-05,827,personnel,other,一般,OrthodoxEaster
+2013-05-12,834,measure,other,一般,Mother's day
+2013-05-27,849,process,other,严重,MemorialDay
+2013-06-06,859,measure,other,轻微,NBAFinalsStart
+2013-06-16,869,measure,other,一般,Father's day
+2013-06-20,873,measure,other,轻微,NBAFinalsEnd
+2013-07-04,887,process,other,严重,IndependenceDay
+2013-07-09,892,personnel,other,一般,Ramadan starts
+2013-08-08,922,personnel,other,一般,Eid al-Fitr
+2013-09-02,947,process,other,严重,LaborDay
+2013-10-14,989,process,other,严重,ColumbusDay
+2013-10-15,990,personnel,other,一般,EidAlAdha
+2013-10-31,1006,measure,other,一般,Halloween
+2013-11-11,1017,process,other,严重,VeteransDay
+2013-11-28,1034,process,other,严重,Thanksgiving
+2013-12-05,1041,personnel,other,一般,Chanukah End
+2013-12-25,1061,process,other,严重,Christmas
+2014-01-01,1068,process,other,严重,NewYear
+2014-01-07,1074,personnel,other,一般,OrthodoxChristmas
+2014-01-20,1087,process,other,严重,MartinLutherKingDay
+2014-02-02,1100,measure,other,轻微,SuperBowl
+2014-02-14,1112,measure,other,一般,ValentinesDay
+2014-02-17,1115,process,other,严重,PresidentsDay
+2014-03-05,1131,personnel,other,一般,LentStart
+2014-03-12,1138,personnel,other,一般,LentWeek2
+2014-03-16,1142,personnel,other,一般,Purim End
+2014-03-17,1143,measure,other,一般,StPatricksDay
+2014-04-20,1177,measure,other,一般,Easter
+2014-04-22,1179,personnel,other,一般,Pesach End
+2014-05-05,1192,measure,other,一般,Cinco De Mayo
+2014-05-11,1198,measure,other,一般,Mother's day
+2014-05-26,1213,process,other,严重,MemorialDay
+2014-06-05,1223,measure,other,轻微,NBAFinalsStart
+2014-06-15,1233,measure,other,一般,Father's day
+2014-06-29,1247,personnel,other,一般,Ramadan starts
+2014-07-04,1252,process,other,严重,IndependenceDay
+2014-07-29,1277,personnel,other,一般,Eid al-Fitr
+2014-09-01,1311,process,other,严重,LaborDay
+2014-10-04,1344,personnel,other,一般,EidAlAdha
+2014-10-13,1353,process,other,严重,ColumbusDay
+2014-10-31,1371,measure,other,一般,Halloween
+2014-11-11,1382,process,other,严重,VeteransDay
+2014-11-27,1398,process,other,严重,Thanksgiving
+2014-12-24,1425,personnel,other,一般,Chanukah End
+2014-12-25,1426,process,other,严重,Christmas
+2015-01-01,1433,process,other,严重,NewYear
+2015-01-07,1439,personnel,other,一般,OrthodoxChristmas
+2015-01-19,1451,process,other,严重,MartinLutherKingDay
+2015-02-01,1464,measure,other,轻微,SuperBowl
+2015-02-14,1477,measure,other,一般,ValentinesDay
+2015-02-16,1479,process,other,严重,PresidentsDay
+2015-02-18,1481,personnel,other,一般,LentStart
+2015-02-25,1488,personnel,other,一般,LentWeek2
+2015-03-05,1496,personnel,other,一般,Purim End
+2015-03-17,1508,measure,other,一般,StPatricksDay
+2015-04-05,1527,measure,other,一般,Easter
+2015-04-11,1533,personnel,other,一般,Pesach End
+2015-04-12,1534,personnel,other,一般,OrthodoxEaster
+2015-05-05,1557,measure,other,一般,Cinco De Mayo
+2015-05-10,1562,measure,other,一般,Mother's day
+2015-05-25,1577,process,other,严重,MemorialDay
+2015-06-04,1587,measure,other,轻微,NBAFinalsStart
+2015-06-16,1599,measure,other,轻微,NBAFinalsEnd
+2015-06-18,1601,personnel,other,一般,Ramadan starts
+2015-06-21,1604,measure,other,一般,Father's day
+2015-07-04,1617,process,other,严重,IndependenceDay
+2015-07-18,1631,personnel,other,一般,Eid al-Fitr
+2015-09-07,1682,process,other,严重,LaborDay
+2015-09-24,1699,personnel,other,一般,EidAlAdha
+2015-10-12,1717,process,other,严重,ColumbusDay
+2015-10-31,1736,measure,other,一般,Halloween
+2015-11-11,1747,process,other,严重,VeteransDay
+2015-11-26,1762,process,other,严重,Thanksgiving
+2015-12-14,1780,personnel,other,一般,Chanukah End
+2015-12-25,1791,process,other,严重,Christmas
+2016-01-01,1798,process,other,严重,NewYear
+2016-01-07,1804,personnel,other,一般,OrthodoxChristmas
+2016-01-18,1815,process,other,严重,MartinLutherKingDay
+2016-02-07,1835,measure,other,轻微,SuperBowl
+2016-02-10,1838,personnel,other,一般,LentStart
+2016-02-14,1842,measure,other,一般,ValentinesDay
+2016-02-15,1843,process,other,严重,PresidentsDay
+2016-02-17,1845,personnel,other,一般,LentWeek2
+2016-03-17,1874,measure,other,一般,StPatricksDay
+2016-03-24,1881,personnel,other,一般,Purim End
+2016-03-27,1884,measure,other,一般,Easter

@@ -1,0 +1,40 @@
+===== model/model.py :: __init__ (L24) =====
+def __init__(self, c_in: int = 5, d_model: int = 96, n_heads: int = 4,
+                 seg_len: int = SEG, n_seg_hist: int = 12, n_seg_fut: int = 4,
+                 layers: int = 4, dropout: float = 0.15,
+                 use_events: bool = True,
+                 use_event_timestep: bool = True,
+                 use_multiscale: bool = True, use_contrastive: bool = True):
+        super().__init__()
+        self.c_in, self.d_model = c_in, d_model
+        self.seg_len, self.n_seg_fut = seg_len, n_seg_fut
+        self.n_seg_hist = n_seg_hist
+        self.use_events = use_events
+        self.use_event_timestep = use_event_timestep
+        self.use_multiscale = use_multiscale
+        self.use_contrastive = use_contrastive
+
+        self.ev_enc = EventEncoder(EVENT_FEAT_DIM, d_model, dropout)
+        self.ms_enc = MultiScaleEncoder(c_in, d_model, n_heads, layers=2,
+                                        dropout=dropout)
+        self.ev_fuse = EventFusion(d_model, n_heads, dropout)
+        self.timestep = EventTimestep(d_model, use_event=use_event_timestep)
+        self.denoiser = Denoiser(seg_len, c_in, d_model, n_heads, layers,
+                                 dropout=dropout)
+        self.time_emb = TimeEmbed(d_model)
+        self.short_proj = nn.Linear(c_in, d_model)
+        self.short_enc = nn.GRU(d_model, d_model, batch_first=True)
+        self.fuse_rep = nn.Linear(d_model * 2, d_model)
+        self.z0 = nn.Parameter(torch.randn(1, d_model) * 0.02)
+        self.contrastive = DynamicContrastive(d_model)
+
+===== model/evaluate.py :: eval_model_metrics (L66) =====
+def eval_model_metrics(model, loader, dev, smoke=False):
+    y, s, m, _ = collect(model, loader, dev,
+                         n_samples=20 if smoke else 50)
+    flat_y = y.reshape(-1)
+    flat_s = s.reshape(-1, s.shape[-1])
+    flat_m = m.reshape(-1)
+    mae, mse, rmse = mae_mse_rmse(flat_y, flat_m)
+    return {"crps": crps_sample(flat_y, flat_s), "wql": wql(flat_y, flat_s),
+            "mae": mae, "mse": mse, "rmse": rmse}
